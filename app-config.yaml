@@ -35,6 +35,7 @@ backend:
 integrations:
   github:
     - host: github.com
+<<<<<<< HEAD
       # This is a Personal Access Token or PAT from GitHub. You can find out how to generate this token, and more information
       # about setting up the GitHub integration here: https://backstage.io/docs/integrations/github/locations#configuration
       token: ${GITHUB_TOKEN}
@@ -42,6 +43,13 @@ integrations:
     # - host: ghe.example.net
     #   apiBaseUrl: https://ghe.example.net/api/v3
     #   token: ${GHE_TOKEN}
+=======
+      token: ${GITHUB_TOKEN}  
+
+# sonarqube:
+#   baseUrl: https://sonarcloud.io
+#   apiKey: ${SONARCLOUD_TOKEN}
+>>>>>>> f3d6f6b... add
 
 proxy:
   ### Example for how to add a proxy endpoint for the frontend.
